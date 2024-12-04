@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* General body styles for consistent background, font, and spacing */
+body {
+    background-color: #f0f8ff; /* Light blue background color */
+    color: #000000; /* Black text color */
+    font-family: Arial, sans-serif; /* Default font for readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.6; /* Improve text readability with line spacing */
+}
+
+/* Header section styles for title and subtitle */
+.header {
+    background-color: #0077b6; /* Dark blue background color for the header */
+    color: #ffffff; /* White text color for contrast */
+    text-align: center; /* Center-align text */
+    padding: 50px; /* Add padding around the header */
+    font-size: 2em; /* Increase font size for the main heading */
+}
+
+.header p {
+    margin-top: 10px; /* Add space above the subtitle */
+    font-size: 1.1em; /* Set the font size of the subtitle */
+}
+
+/* Navigation button container styles */
+nav {
+    margin-top: 15px; /* Add space above the navigation buttons */
+}
+
+/* Individual button styles within the navigation */
+nav button {
+    background-color: #050a0d; /* Dark blue background color for buttons */
+    color: #ffffff; /* White text color for contrast */
+    border: none; /* Remove default border */
+    padding: 6px 12px; /* Add padding inside the buttons */
+    margin: 5px; /* Add space between buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 0.5em; /* Set font size for readability */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect styles */
+nav button:hover {
+    background-color: #003f5c; /* Darker blue when hovered over */
+}
+
+/* Container for the main content sections */
+.content-container {
+    padding: 20px; /* Add padding inside the content container */
+    max-width: 800px; /* Set a maximum width for readability */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Styles for each mental health section */
+.mental-health-section {
+    padding: 20px 0; /* Add vertical padding for spacing */
+    border-bottom: 2px solid #0077b6; /* Blue line separating each section */
+}
+
+/* Remove bottom border for the last mental health section */
+.mental-health-section:last-child {
+    border-bottom: none;
+}
+
+/* Heading styles for each mental health section */
+.mental-health-section h2 {
+    font-size: 1.5em; /* Set font size for headings */
+    color: #003366; /* Dark blue color for headings */
+}
+
+/* Paragraph styles for each mental health section */
+.mental-health-section p {
+    font-size: 1em; /* Set font size for paragraph text */
+    color: #333333; /* Dark gray color for better readability */
+}
+
+/* Footer section styles */
+.footer {
+    background-color: #000000; /* Black background for the footer */
+    color: #ffffff; /* White text for contrast */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add padding around the footer */
+    margin-top: 40px; /* Add space above the footer */
+}
+
+/* Input and button styles for consistent look and feel */
+input[type="text"],
+button {
+    font-size: 1em; /* Set font size for readability */
+    padding: 10px; /* Add padding inside input fields and buttons */
+    margin: 10px 0; /* Add vertical margin between elements */
+    border-radius: 5px; /* Rounded corners for input fields and buttons */
+    border: 1px solid #cccccc; /* Light gray border for input fields */
+}
+
+/* General button styles for the entire page */
+button {
+    background-color: #0077b6; /* Blue background color for buttons */
+    color: #ffffff; /* White text color for contrast */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for general buttons */
+button:hover {
+    background-color: #005f8a; /* Darker blue when hovered over */
+}
+
+/* Emergency button styles */
+.emergency-button {
+    background-color: #d9534f; /* Red color for immediate attention */
+    color: #ffffff; /* White text color for contrast */
+    font-weight: bold; /* Bold font to make it stand out */
+    padding: 10px 20px; /* Padding for comfortable size */
+    margin: 10px; /* Margin for spacing */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for a polished look */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.emergency-button:hover {
+    background-color: #c9302c; /* Darker red when hovered */
+}
+/* CSS for enlarging the description box on hover */
+.mental-health-section {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+.hover-enlarge {
+    transform: scale(1.05); /* Increase the size by 5% when hovered */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow to make the box pop */
+}
