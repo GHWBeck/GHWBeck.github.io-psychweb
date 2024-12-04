@@ -1,0 +1,122 @@
+/* General styling for the Contact Us page */
+body {
+    background-color: #f5fafd; /* A soothing light blue for background */
+    color: #333; /* Darker gray for better readability */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* Header styles */
+.header {
+    background-color: #2a9df4; /* Calm blue header */
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation button styles */
+nav button {
+    background-color: #004aad;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #00338a; /* Darker shade on hover */
+}
+
+/* Main container styles */
+.content-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Contact section styles */
+.contact-section h2 {
+    font-size: 1.8em;
+    color: #004aad; /* Deep blue */
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Contact form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1.1em;
+    color: #003366;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: #fafafa;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2a9df4;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(42, 157, 244, 0.5);
+}
+
+/* Submit button styling */
+.contact-form button {
+    padding: 12px 20px;
+    background-color: #2a9df4;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0078d7; /* Slightly darker shade on hover */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #004aad; /* Deep blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
